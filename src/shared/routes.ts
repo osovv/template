@@ -7,5 +7,5 @@ export const routes = {
   },
 };
 
-// We need so we can host on GitHub Pages. `template` is repo name
-export const basePath = import.meta.env.GH_PAGES ? '/template' : '';
+// We need this so we can host on GitHub Pages. `template` is repo name
+export const basePath = import.meta.env.BASE_URL.replace(/\/(?=[^/]*$)/, '');
