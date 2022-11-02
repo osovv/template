@@ -1,3 +1,3 @@
-import React, { FunctionComponent } from 'react';
+import { withProviders } from './providers';
 
-export const App: FunctionComponent = () => <div>App</div>;
+export const App = () => withProviders(<div>App</div>);
