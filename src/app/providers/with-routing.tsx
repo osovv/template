@@ -6,7 +6,11 @@ import { notFoundRoute, routesMap } from 'src/pages';
 
 const history = createBrowserHistory();
 
-const router = createHistoryRouter({ routes: routesMap, notFoundRoute });
+const router = createHistoryRouter({
+  base: '/template',
+  routes: routesMap,
+  notFoundRoute,
+});
 
 router.setHistory(history);
 
