@@ -2,7 +2,7 @@ import { createHistoryRouter } from 'atomic-router';
 import { RouterProvider } from 'atomic-router-react';
 import { createBrowserHistory } from 'history';
 import React from 'react';
-import { notFoundRoute, routesMap } from 'src/pages';
+import { notFoundRoute, routesMap } from '~/pages';
 
 const history = createBrowserHistory();
 

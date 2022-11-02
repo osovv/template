@@ -1,5 +1,5 @@
 import { Link } from 'atomic-router-react';
-import { routes } from 'src/shared/routes';
+import { routes } from '~/shared/routes';
 
 export const NotFoundPage = () => {
   return (

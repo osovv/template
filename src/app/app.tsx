@@ -1,5 +1,5 @@
 import './styles/tailwind.css';
-import { Pages } from 'src/pages';
+import { Pages } from '~/pages';
 import { withProviders } from './providers';
 
 export const App = withProviders(() => {

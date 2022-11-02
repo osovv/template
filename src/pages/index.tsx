@@ -1,5 +1,5 @@
 import { Route } from 'atomic-router-react';
-import { routes } from 'src/shared/routes';
+import { routes } from '~/shared/routes';
 import { HomePage } from './home';
 import { NotFoundPage } from './not-found';
 
