@@ -1,3 +1,6 @@
+import { Pages } from 'src/pages';
 import { withProviders } from './providers';
 
-export const App = () => withProviders(<div>App</div>);
+export const App = withProviders(() => {
+  return <Pages />;
+});
