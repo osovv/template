@@ -6,13 +6,14 @@ module.exports = configure({
     presets.node(),
     presets.prettier(),
     presets.typescript(),
-    presets.react(),
+    presets.react({ newJSXTransform: true }),
     presets.effector(),
   ],
   extend: {
+    extends: ['plugin:storybook/recommended'],
     overrides: [
       {
-        files: ['vite.config.ts'],
+        files: ['vite.config.ts', 'src/**/*.stories.tsx'],
         rules: {
           'import/no-default-export': ['off'],
         },
