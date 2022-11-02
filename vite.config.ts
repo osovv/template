@@ -4,6 +4,7 @@ import { packageDirectorySync } from 'pkg-dir';
 import { defineConfig } from 'vite';
 
 const packageRoot = packageDirectorySync();
+const ghPages = process.env.GH_PAGES;
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,4 +14,5 @@ export default defineConfig({
       src: path.resolve(packageRoot, './src'),
     },
   },
+  base: ghPages ? '/sorting-visualizer/' : '/',
 });
