@@ -7,5 +7,5 @@ const reactRoot = createRoot(document.querySelector('#root')!);
 reactRoot.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
 );
