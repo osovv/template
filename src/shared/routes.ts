@@ -9,6 +9,3 @@ export const routes = {
 
 // We need this so we can host on GitHub Pages. `template` is repo name
 export const basePath = import.meta.env.BASE_URL.replace(/\/(?=[^/]*$)/, '');
-
-// eslint-disable-next-line no-console
-console.log(basePath);

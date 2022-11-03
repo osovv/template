@@ -7,6 +7,9 @@ import { basePath } from '~/shared/routes';
 
 const history = createBrowserHistory();
 
+// eslint-disable-next-line no-console
+console.log(`basePath: '${basePath}'`);
+
 const router = createHistoryRouter({
   base: basePath,
   routes: routesMap,
