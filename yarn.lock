@@ -5187,10 +5187,10 @@ effector-react@^22.3.4:
   dependencies:
     use-sync-external-store "^1.0.0"
 
-effector@^22.3.0:
-  version "22.3.0"
-  resolved "https://registry.yarnpkg.com/effector/-/effector-22.3.0.tgz#c743dd7d934ec3f9a2efac76a563cd0281bc4201"
-  integrity sha512-Nh7IXn8U4emq8YtAZf2+y2Rs6n4W/gjPaNZpZLFOXOIAsRZSNBFjtK1vHTWNKxxmNFZOaZN6XUXdT8FDs0mAdQ==
+effector@^22.4.0:
+  version "22.4.0"
+  resolved "https://registry.yarnpkg.com/effector/-/effector-22.4.0.tgz#6f94352d30268f644321892167ebe52ebc3e70a6"
+  integrity sha512-WQ0rboUp1fvkzo2rPymtWzR9isUl8v9McGvBA4g8zvQaTgZnXQ1iCbNj2S54bADGpSNl1CYv1/61vvdbc5Goyw==
 
 electron-to-chromium@^1.4.251:
   version "1.4.284"
